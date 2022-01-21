@@ -1,0 +1,12 @@
+{
+  "name": "aws-node-rest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:oscar-mugambi/serverless-aws-laith.git",
+  "author": "oscar-mugambi <oscarmugambi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1061.0",
+    "uuid": "^8.3.2"
+  }
+}
