@@ -6,6 +6,9 @@ const addTodo = async (event) => {
   const { todo } = JSON.parse(event.body);
   const createdAt = new Date();
   const id = v4();
+
+  console.log('This is an id', id);
+
   const newTodo = {
     id,
     todo,
